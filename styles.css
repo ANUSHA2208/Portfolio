@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400;700&display=swap');
 *
 {
     margin: 0;
@@ -5,19 +6,16 @@
     box-sizing: border-box;
 }
 
-/* html {
-    background-color: #E4E9FD;
-    background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
-    min-height: 1000px;
-    font-family: 'helvetica neue';
-  } */
+
 
   html{
     min-height:100%;/* make sure it is at least as tall as the viewport */
     position:relative;
+    font-family: 'Quicksand';
+    /* font-family: 'Helvetica', 'Arial', sans-serif; */
 }
 body {
-    font-family: Arial;
+    /* font-family: Arial; */
     height: 100%;
  }
  h1{
@@ -35,12 +33,13 @@ body {
  .left {
     width: 20%;
     left: 0;
-    background-color: rgb(186, 161, 227);
+    /* background-color:#F2D7D9; */
  }
  .right {
     width: 80%;
     right: 0;
-    background-color: rgb(240, 188, 229);
+    color: white;
+    background-color: #0B0C10;
  }
 
  
@@ -80,7 +79,6 @@ h3{
  {
     width: 100%;
      height: 30px;
-    background-color:  rgb(186, 161, 227);
     
   }
   
@@ -92,29 +90,10 @@ h3{
     
 }
   
-  .html {width: 90%; height: 10px; background-color: #dc39e8;}
-  .css {width: 80%; height: 10px; background-color: #82a0e7;}
-  .js {width: 65%;height: 10px; background-color: #a30e5d;}
+  .html {width: 90%; height: 10px; background-color: #e87333;margin-left: 0.5rem;}
+  .css {width: 80%; height: 10px; background-color: #82a0e7;margin-left: 0.5rem;}
+  .js {width: 65%;height: 10px; background-color: #dfc728;margin-left: 0.5rem;}
 
-  .html:hover
-  {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-  }
-  .css:hover
-  {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-  }
-
-  .js:hover
-  {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-  }
   h3
   {
     margin: 2rem 0 2rem 0;
@@ -158,7 +137,8 @@ h3{
 
   .education .head .h
   {
-    background-color: #da4a97;
+    /* background-color: #da4a97; */
+    color: #66FCF1;
     margin: 2rem;
     text-align: center;
     font-size: 20px;
@@ -182,9 +162,10 @@ h3{
 .education .work h4
 {
   margin: 18rem 2rem 0 2rem;
-  background-color: #da4a97;
+  /* background-color: #da4a97; */
     text-align: center;
     font-size: 20px;
+    color:#66FCF1;
     font-weight: 100;
 }
 .work .company
