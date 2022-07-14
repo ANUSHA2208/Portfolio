@@ -1,0 +1,240 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* html {
+    background-color: #E4E9FD;
+    background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+    min-height: 1000px;
+    font-family: 'helvetica neue';
+  } */
+
+  html{
+    min-height:100%;/* make sure it is at least as tall as the viewport */
+    position:relative;
+}
+body {
+    font-family: Arial;
+    height: 100%;
+ }
+ h1{
+    padding:20px;
+ }
+
+ .left,.right {
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+ }
+ .left {
+    width: 20%;
+    left: 0;
+    background-color: rgb(186, 161, 227);
+ }
+ .right {
+    width: 80%;
+    right: 0;
+    background-color: rgb(240, 188, 229);
+ }
+
+ 
+ /* .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+ } */
+ /* .centered img 
+ {
+    width: 150px;
+    border-radius: 50%;
+ } */
+
+h3{
+    text-align: center;
+}
+
+.heading .contact
+{
+    margin: 3rem 0 0 3rem;
+    padding-left: 1rem;
+    word-spacing: 15px;
+}
+
+.heading .social
+{
+    margin :3rem 0 0 3rem;
+    padding-left: 1rem;
+    word-spacing: 15px;
+}
+
+
+.container
+ {
+    width: 100%;
+     height: 30px;
+    background-color:  rgb(186, 161, 227);
+    
+  }
+  
+  .skills
+{
+    text-align: right;
+    font-size: 10px;
+    color: white;
+    
+}
+  
+  .html {width: 90%; height: 10px; background-color: #dc39e8;}
+  .css {width: 80%; height: 10px; background-color: #82a0e7;}
+  .js {width: 65%;height: 10px; background-color: #a30e5d;}
+
+  .html:hover
+  {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  .css:hover
+  {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  .js:hover
+  {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  h3
+  {
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+  }
+
+
+  /*----------right------------*/
+
+  .right .name h1 {
+    text-align: center;
+    font-weight: 300;
+    letter-spacing:0.5rem ;
+  }
+
+  .right .name .line{
+    width: 100px;
+    margin-left: 45%;
+  }
+
+  .right .name h2{
+    text-align: center;
+    font-weight: 200;
+    margin-top: 1rem;
+  }
+
+
+  .intro .greet h4
+  {
+    /* font-weight: 500; */
+    margin:6rem 0 1rem 2rem
+  }
+
+  .intro .greet p
+  {
+   margin: 1rem 0 0 2rem;
+   width: 90%;
+   letter-spacing: 0.2rem;
+   /* text-align: center; */
+  }
+
+  .education .head .h
+  {
+    background-color: #da4a97;
+    margin: 2rem;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+  }
+
+  .clg .date
+  {
+    float: left;
+    margin-left: 20rem;
+    letter-spacing: 0.2rem;
+  }
+
+  .clg .clgname
+  {
+    float: right;
+    margin-right: 20rem;
+     /* letter-spacing: 0.2rem; */
+  }
+
+.education .work h4
+{
+  margin: 18rem 2rem 0 2rem;
+  background-color: #da4a97;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+}
+.work .company
+{
+  float: left;
+  margin-left: 20rem;
+  margin-top: 2rem;
+  letter-spacing: 0.2rem;
+}
+.work .compname
+{
+  float: right;
+  margin-top: 2rem;
+  margin-right: 10rem;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+
+.inter i:hover{
+  animation: bounce 1s;
+  
+}
+
+
+.social i:hover
+{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.contact i:hover
+{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
